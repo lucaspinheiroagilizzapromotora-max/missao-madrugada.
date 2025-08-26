@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão na Madrugada - Igreja Missão Maior</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Missão na Madrugada</h1>
+                    <span class="subtitle">Igreja Missão Maior</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#sobre" class="nav-link">Quem Somos</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#doar" class="nav-link">Doe Agora</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Levando alimento físico e espiritual</h2>
+            <p class="hero-subtitle">nas ruas da Região Metropolitana de Porto Alegre</p>
+            <div class="hero-buttons">
+                <a href="#doar" class="btn btn-primary">
+                    <i class="fas fa-utensils"></i> Doe um Prato
+                </a>
+                <a href="https://wa.me/555198109110" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Fale no WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Quem Somos</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A <strong>Missão na Madrugada</strong> é um projeto da <strong>Igreja Missão Maior</strong>, que nasceu do desejo de levar não apenas alimento físico, mas também o <strong>alimento espiritual</strong> através da Palavra de Deus.</p>
+                    <p>Atuamos em Porto Alegre e região metropolitana, levando refeições, kits de higiene e a mensagem transformadora do Evangelho para aqueles que mais precisam.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="500">0</div>
+                            <div class="stat-label">Refeições Servidas</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="200">0</div>
+                            <div class="stat-label">Pessoas Alcançadas</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="12">0</div>
+                            <div class="stat-label">Meses de Atividade</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projetos" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Projetos</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Missão na Madrugada</h3>
+                    <p>Entrega de alimentos, oração e ministração do Evangelho nas ruas durante as madrugadas.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Kit Dignidade</h3>
+                    <p>Distribuição de kits de higiene pessoal para manter a dignidade e saúde das pessoas.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3>Madrugada do Calor</h3>
+                    <p>Doação de cobertores e roupas durante o inverno para aquecer corpos e corações.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Ceia Especial</h3>
+                    <p>Refeições completas em datas comemorativas, com culto e louvor especiais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="section gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Galeria</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Momentos especiais da nossa missão</p>
+            </div>
+            
+            <!-- Instagram Feed -->
+            <div class="instagram-section">
+                <div class="instagram-header">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Siga-nos no Instagram</h3>
+                    <a href="#" id="instagram-link" class="instagram-follow-btn" target="_blank">
+                        <i class="fab fa-instagram"></i> Seguir
+                    </a>
+                </div>
+                <div id="instagram-feed" class="instagram-feed">
+                    <!-- Instagram posts will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Photo Gallery -->
+            <div class="photo-gallery" id="photo-gallery">
+                <!-- Photos will be loaded from gallery.json -->
+            </div>
+            
+            <!-- Upload Section (Admin) -->
+            <div class="upload-section" id="upload-section" style="display: none;">
+                <h3>Adicionar Nova Foto</h3>
+                <div class="upload-form">
+                    <input type="file" id="photo-upload" accept="image/*" multiple>
+                    <input type="text" id="photo-title" placeholder="Título da foto">
+                    <textarea id="photo-description" placeholder="Descrição da foto"></textarea>
+                    <button onclick="addPhoto()" class="btn btn-primary">Adicionar Foto</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section id="doar" class="section donation">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ajude Essa Obra</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="donation-content">
+                <div class="donation-text">
+                    <p>Com apenas <strong>R$10</strong>, você pode <strong>apadrinhar um prato de alimento</strong> e semear esperança na vida de alguém em situação de rua.</p>
+                    <p>Sua doação nos ajuda a cumprir o chamado de Jesus: <em>"Tive fome, e me destes de comer"</em> (Mateus 25:35).</p>
+                    <a href="https://wa.me/555198109110" class="btn btn-primary btn-large" target="_blank">
+                        <i class="fas fa-handshake"></i> Quero Ajudar
+                    </a>
+                </div>
+                <div class="pix-box">
+                    <h3><i class="fas fa-qrcode"></i> Doe pelo Pix</h3>
+                    <p>Chave Pix: <strong>contato@missaonamadrugada.org</strong></p>
+                    <p>Ou escaneie o QR Code abaixo:</p>
+                    <div class="qr-code">
+                        <img src="qrcode-pix.png" alt="QR Code Pix" id="qr-code-img">
+                    </div>
+                    <button onclick="copyPixKey()" class="btn btn-secondary">
+                        <i class="fas fa-copy"></i> Copiar Chave Pix
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contato</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Porto Alegre e Região Metropolitana</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@missaonamadrugada.org</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>(51) 98109-1110</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h4>Siga-nos nas redes sociais</h4>
+                    <div class="social-icons">
+                        <a href="#" id="instagram-social" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/555198109110" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Missão na Madrugada</h3>
+                    <p>Igreja Missão Maior</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#sobre">Quem Somos</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#galeria">Galeria</a>
+                    <a href="#doar">Doe Agora</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Missão na Madrugada - Igreja Missão Maior | Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Admin Panel Toggle -->
+    <div class="admin-toggle" onclick="toggleAdmin()">
+        <i class="fas fa-cog"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
